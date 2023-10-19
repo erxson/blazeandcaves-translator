@@ -9,7 +9,7 @@ translateFile = input("Введи название файла с перевод�
 with open(translateFile, encoding="utf-8") as f:
     lines = f.readlines()
     lines = [line for line in lines if not line.strip().startswith('#')]
-    translateData = json.loads("".join(lines))
+    translateData = json.loads("".join(lines), strict=False)
 
 for root, dirs, files in os.walk(path):
     for name in files:
