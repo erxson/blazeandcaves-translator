@@ -1,6 +1,5 @@
 import json
 import os
-from decoder import Decoder
 from pathlib import Path
 
 path = Path(__file__).parent / "datapack/data/blazeandcave/advancements/"
