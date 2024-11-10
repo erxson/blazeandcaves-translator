@@ -2,7 +2,7 @@ import json
 import os
 from pathlib import Path
 
-path = Path(__file__).parent / "datapack/data/blazeandcave/advancements/"
+path = Path(__file__).parent / "datapack/data/blazeandcave/advancement/"
 
 translateFile = input("Type translation file name (default: ru_ru.json): ") or "ru_ru.json"
 
